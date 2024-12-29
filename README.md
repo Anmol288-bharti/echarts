@@ -1,98 +1,70 @@
-# Apache ECharts
+# Getting Started with Create React App
 
-<a href="https://echarts.apache.org/">
-    <img style="vertical-align: top;" src="./asset/logo.png?raw=true" alt="logo" height="50px">
-</a>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Apache ECharts is a free, powerful charting and visualization library offering easy ways to add intuitive, interactive, and highly customizable charts to your commercial products. It is written in pure JavaScript and based on <a href="https://github.com/ecomfe/zrender">zrender</a>, which is a whole new lightweight canvas library.
+## Available Scripts
 
-**[中文官网](https://echarts.apache.org/zh/index.html)** | **[ENGLISH HOMEPAGE](https://echarts.apache.org/en/index.html)**
+In the project directory, you can run:
 
-[![License](https://img.shields.io/npm/l/echarts?color=5470c6)](https://github.com/apache/echarts/blob/master/LICENSE) [![Latest npm release](https://img.shields.io/npm/v/echarts?color=91cc75)](https://www.npmjs.com/package/echarts) [![NPM downloads](https://img.shields.io/npm/dm/echarts.svg?label=npm%20downloads&style=flat&color=fac858)](https://www.npmjs.com/package/echarts) [![Contributors](https://img.shields.io/github/contributors/apache/echarts?color=3ba272)](https://github.com/apache/echarts/graphs/contributors)
+### `npm start`
 
-[![Build Status](https://github.com/apache/echarts/actions/workflows/ci.yml/badge.svg)](https://github.com/apache/echarts/actions/workflows/ci.yml)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Get Apache ECharts
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-You may choose one of the following methods:
+### `npm test`
 
-+ Download from the [official website](https://echarts.apache.org/download.html)
-+ `npm install echarts --save`
-+ CDN: [jsDelivr CDN](https://www.jsdelivr.com/package/npm/echarts?path=dist)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Docs
+### `npm run build`
 
-+ [Get Started](https://echarts.apache.org/handbook)
-+ [API](https://echarts.apache.org/api.html)
-+ [Option Manual](https://echarts.apache.org/option.html)
-+ [Examples](https://echarts.apache.org/examples)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Get Help
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-+ [GitHub Issues](https://github.com/apache/echarts/issues) for bug report and feature requests
-+ Email [dev@echarts.apache.org](mailto:dev@echarts.apache.org) for general questions
-+ Subscribe to the [mailing list](https://echarts.apache.org/maillist.html) to get updated with the project
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Build
+### `npm run eject`
 
-Build echarts source code:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Execute the instructions in the root directory of the echarts:
-([Node.js](https://nodejs.org) is required)
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-```shell
-# Install the dependencies from NPM:
-npm install
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-# Rebuild source code immediately in watch mode when changing the source code.
-# It opens the `./test` directory, and you may open `-cases.html` to get the list
-# of all test cases.
-# If you wish to create a test case, run `npm run mktest:help` to learn more.
-npm run dev
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-# Check the correctness of TypeScript code.
-npm run checktype
+## Learn More
 
-# If intending to build and get all types of the "production" files:
-npm run release
-```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Then the "production" files are generated in the `dist` directory.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Contribution
+### Code Splitting
 
-Please refer to the [contributing](https://github.com/apache/echarts/blob/master/CONTRIBUTING.md) document if you wish to debug locally or make pull requests.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## Resources
+### Analyzing the Bundle Size
 
-### Awesome ECharts
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-[https://github.com/ecomfe/awesome-echarts](https://github.com/ecomfe/awesome-echarts)
+### Making a Progressive Web App
 
-### Extensions
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-+ [ECharts GL](https://github.com/ecomfe/echarts-gl) An extension pack of ECharts, which provides 3D plots, globe visualization, and WebGL acceleration.
+### Advanced Configuration
 
-+ [Liquidfill 水球图](https://github.com/ecomfe/echarts-liquidfill)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-+ [Wordcloud 字符云](https://github.com/ecomfe/echarts-wordcloud)
+### Deployment
 
-+ [Extension for Baidu Map 百度地图扩展](https://github.com/apache/echarts/tree/master/extension-src/bmap) An extension provides a wrapper of Baidu Map Service SDK.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-+ [vue-echarts](https://github.com/ecomfe/vue-echarts) ECharts component for Vue.js
+### `npm run build` fails to minify
 
-+ [echarts-stat](https://github.com/ecomfe/echarts-stat) Statistics tool for ECharts
-
-## License
-
-ECharts is available under the Apache License V2.
-
-## Code of Conduct
-
-Please refer to [Apache Code of Conduct](https://www.apache.org/foundation/policies/conduct.html).
-
-## Paper
-
-Deqing Li, Honghui Mei, Yi Shen, Shuang Su, Wenli Zhang, Junting Wang, Ming Zu, Wei Chen.
-[ECharts: A Declarative Framework for Rapid Construction of Web-based Visualization](https://www.sciencedirect.com/science/article/pii/S2468502X18300068).
-Visual Informatics, 2018.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
